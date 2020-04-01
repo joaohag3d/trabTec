@@ -1,22 +1,26 @@
 
-<div class="flex fill column lista-produtos">
+<div class="bg2">
 
   <div class="bg"> 
     <div class="flex row produto" *ngFor="let produto of produtos">
       <img [src]="produto.urlImagem">
   
-     
-  
+       <div class="espaco"></div> 
+
       <div class="grow flex column descricao-produto">
-  
+      
         <div>
+        
           <h1>
             {{ produto.titulo }}
           </h1>
-          <p>
+
+         <p>
             {{ produto.descricaoCurta }}
-          </p>
+         </p>
+     
         </div>
+    
   
         <div class="grow"></div>
   
@@ -26,7 +30,7 @@
           </h3>
           <div class="grow"></div>
 
-          <button> Informações da carta </button>
+           <button mat-raised-button color="warn"> Descrição completa </button> 
         </div>
   
       </div>

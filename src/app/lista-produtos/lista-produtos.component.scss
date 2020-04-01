@@ -1,12 +1,64 @@
 
 
 .bg {
+  background-color:rgb(185, 185, 199);
   /* The image used */
-  background-image: url("https://i.redd.it/yhx82pal4ng31.jpg");
+ /* background-image: url("https://i.redd.it/yhx82pal4ng31.jpg"); */
   /* Full height */
-  height: 10%;
+
   
   /* Center and scale the image nicely */
  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */ }
+  .produto {
+   
+    
+    margin: 0 25px 16px 0px;
+    background-color: rgb(107, 128, 243);
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+     0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+     border-radius: 10px;
+     
+
+  }
+  button {
+    
+     margin-bottom: 20px;
+     height: 70px;
+    width: 200px;
+   font-size: large;
+   font-style: oblique;
+ left: 85%;
+
+
+}
+
+
+.descricao-produto {
+  padding: 16px;
+  
+}
+ 
+p {
+ 
+  font-weight: 800;
+  font-size: 35px;
+ 
+  
+}
+h3 {
+  font-weight: 500;
+ font-size: 30px;
+  margin-top: 15px;
+}
+h1 {
+ 
+  margin: 32px;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+
+
+
